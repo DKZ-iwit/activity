@@ -1,0 +1,24 @@
+/* Your tabs CSS code here */
+.tabs {
+  list-style: none;
+  margin-bottom: 16px;
+  display: flex;
+  margin-right: 300px;
+}
+
+.tabs a {
+  background: linear-gradient(to left, #1D2671, #C33764);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 16px;
+  opacity: 1;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-link-active {
+  font-weight: bold;
+}

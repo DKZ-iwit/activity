@@ -1,0 +1,44 @@
+.notification {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(235,235,235);
+}
+
+
+.notification-content {
+  flex-grow: 1;
+  padding: 0 24px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.notification-content a {
+  background: linear-gradient(to left, #1D2671, #C33764);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.notification-actions {
+  opacity: 0;
+  display: flex;
+  transition: opacity 0.8s ease, color 0.8s ease;
+}
+
+.notification-actions:hover {
+  opacity: 1;
+}
+
+.notification-actions a {
+  background: linear-gradient(to left, #1D2671, #C33764);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: color 0.8s ease;
+}

@@ -1,0 +1,13 @@
+.navbar-lewagon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+  background: linear-gradient(to left, rgba(29, 38, 113, 0.5), rgba(195, 55, 100, 0.5));
+}
+
+.logo {
+  width: 50px;
+  opacity: 0.8;
+}
